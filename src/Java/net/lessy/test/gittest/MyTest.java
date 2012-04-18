@@ -5,12 +5,12 @@ package net.lessy.test.gittest;
  */
 public class MyTest {
 
-   private void hi() {
-      System.out.println("Hi");
+   private void hi(String s) {
+      System.out.println(s);
    }
 
    public static void main(String[] args) {
-      new MyTest().hi();
+      new MyTest().hi("Hi");
    }
 
 }
