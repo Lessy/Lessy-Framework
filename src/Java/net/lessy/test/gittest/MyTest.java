@@ -1,7 +1,7 @@
 package net.lessy.test.gittest;
 
 /**
- * @author Hans Lesmeister
+ * @author Hans Lesmeister on github
  */
 public class MyTest {
 
