@@ -14,10 +14,18 @@
    <name>Lessy Common</name>
 
    <dependencies>
+      <!-- SPRING -->
+      <dependency>
+         <groupId>org.springframework</groupId>
+         <artifactId>spring-orm</artifactId>
+         <optional>true</optional>
+      </dependency>
+
       <dependency>
          <groupId>org.apache.velocity</groupId>
          <artifactId>velocity</artifactId>
          <version>1.7</version>
+         <optional>true</optional>
       </dependency>
 
       <dependency>

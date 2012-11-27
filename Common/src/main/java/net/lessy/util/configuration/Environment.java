@@ -10,6 +10,7 @@ import net.lessy.util.logging.Logger;
 /**
  * Global Environment initializes the Spring-Beans factory acts as a factory for those Beans
  * @author Hans Lesmeister
+ * @deprecated What was meant to be convenience, turns out to be pain in the butt
  */
 public class Environment implements ApplicationContextAware, Environmentable
 {
