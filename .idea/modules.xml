@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/src/Lessy-Framework.iml" filepath="$PROJECT_DIR$/src/Lessy-Framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Common/LessyCommon.iml" filepath="$PROJECT_DIR$/Common/LessyCommon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Parent/LessyParent.iml" filepath="$PROJECT_DIR$/Parent/LessyParent.iml" />
     </modules>
   </component>
 </project>

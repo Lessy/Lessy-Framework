@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+   <modelVersion>4.0.0</modelVersion>
+   <groupId>net.lessy</groupId>
+   <artifactId>lessy-parent</artifactId>
+   <version>1.0</version>
+   <name>Lessy Parent</name>
+   <packaging>pom</packaging>
+   <description>Lessy Parent</description>
+   <url>http://cantaa.de</url>
+
+   <licenses>
+      <license>
+         <name>The Apache Software License, Version 2.0</name>
+         <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+         <distribution>repo</distribution>
+      </license>
+   </licenses>
+
+   <distributionManagement>
+      <!-- use the following if you're not using a snapshot version. -->
+      <repository>
+         <id>repo</id>
+         <name>Repository Name</name>
+         <url>scp://host/path/to/repo</url>
+      </repository>
+      <!-- use the following if you ARE using a snapshot version. -->
+      <!--<snapshotRepository>-->
+         <!--<id>repo</id>-->
+         <!--<name>Repository Name</name>-->
+         <!--<url>scp://host/path/to/repo</url>-->
+      <!--</snapshotRepository>-->
+   </distributionManagement>
+   <!--<scm>-->
+      <!--<url>http://cantaa,de</url>-->
+      <!--<connection>http://cantaa.de</connection>-->
+   <!--</scm>-->
+
+   <developers>
+      <developer>
+         <id>hans</id>
+         <name>Hans Lesmeister</name>
+         <email>maven@lessy.net</email>
+      </developer>
+   </developers>
+
+   <properties>
+      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+      <spring.version>3.0.5.RELEASE</spring.version>
+      <hibernate.version>3.6.0.Final</hibernate.version>
+      <jetty.version>6.1.5</jetty.version>
+      <wicket.version>1.5.3</wicket.version>
+   </properties>
+
+   <dependencyManagement>
+      <dependencies>
+
+         <!--  SPRING DEPENDENCIES -->
+         <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>${spring.version}</version>
+         </dependency>
+         <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-orm</artifactId>
+            <version>${spring.version}</version>
+         </dependency>
+         <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>${spring.version}</version>
+         </dependency>
+         <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-tx</artifactId>
+            <version>${spring.version}</version>
+         </dependency>
+         <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>${spring.version}</version>
+         </dependency>
+
+         <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>1.6.1</version>
+         </dependency>
+
+         <!-- DEPENDENCIES FOR TESTING -->
+         <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.10</version>
+            <scope>test</scope>
+         </dependency>
+
+         <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>${spring.version}</version>
+            <!--<type>jar</type>-->
+            <scope>test</scope>
+         </dependency>
+
+         <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-all</artifactId>
+            <version>1.9.0-rc1</version>
+            <scope>test</scope>
+         </dependency>
+      </dependencies>
+
+   </dependencyManagement>
+
+   <dependencies>
+      <!-- LOGGING DEPENDENCIES - LOG4J -->
+      <dependency>
+         <groupId>org.slf4j</groupId>
+         <artifactId>slf4j-log4j12</artifactId>
+      </dependency>
+
+      <!-- SPRING -->
+      <dependency>
+         <groupId>org.springframework</groupId>
+         <artifactId>spring-core</artifactId>
+      </dependency>
+      <dependency>
+         <groupId>org.springframework</groupId>
+         <artifactId>spring-orm</artifactId>
+      </dependency>
+      <dependency>
+         <groupId>org.springframework</groupId>
+         <artifactId>spring-web</artifactId>
+      </dependency>
+      <dependency>
+         <groupId>org.springframework</groupId>
+         <artifactId>spring-tx</artifactId>
+      </dependency>
+      <dependency>
+         <groupId>org.springframework</groupId>
+         <artifactId>spring-webmvc</artifactId>
+      </dependency>
+
+      <!-- DEPENDENCIES FOR TESTING -->
+      <dependency>
+         <groupId>junit</groupId>
+         <artifactId>junit</artifactId>
+      </dependency>
+
+      <dependency>
+         <groupId>org.springframework</groupId>
+         <artifactId>spring-test</artifactId>
+      </dependency>
+
+      <dependency>
+         <groupId>org.mockito</groupId>
+         <artifactId>mockito-all</artifactId>
+      </dependency>
+
+   </dependencies>
+
+   <build>
+      <resources>
+         <resource>
+            <filtering>false</filtering>
+            <directory>src/main/resources</directory>
+            <includes>
+               <include>**</include>
+            </includes>
+         </resource>
+         <resource>
+            <filtering>false</filtering>
+            <directory>src/main/java</directory>
+            <includes>
+               <include>**</include>
+            </includes>
+            <excludes>
+               <exclude>**/*.java</exclude>
+            </excludes>
+         </resource>
+      </resources>
+
+      <testResources>
+         <testResource>
+            <filtering>false</filtering>
+            <directory>src/test/resources</directory>
+            <includes>
+               <include>**</include>
+            </includes>
+         </testResource>
+         <testResource>
+            <filtering>false</filtering>
+            <directory>src/test/java</directory>
+            <includes>
+               <include>**</include>
+            </includes>
+            <excludes>
+               <exclude>**/*.java</exclude>
+            </excludes>
+         </testResource>
+      </testResources>
+
+      <plugins>
+         <plugin>
+            <inherited>true</inherited>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <configuration>
+               <source>1.6</source>
+               <target>1.6</target>
+               <optimize>true</optimize>
+               <debug>true</debug>
+            </configuration>
+         </plugin>
+
+         <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-source-plugin</artifactId>
+            <version>2.1.2</version>
+            <executions>
+               <execution>
+                  <id>attach-sources</id>
+                  <phase>verify</phase>
+                  <goals>
+                     <goal>jar-no-fork</goal>
+                     <goal>test-jar-no-fork</goal>
+                  </goals>
+               </execution>
+            </executions>
+         </plugin>
+
+         <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-gpg-plugin</artifactId>
+            <executions>
+               <execution>
+                  <id>sign-artifacts</id>
+                  <phase>verify</phase>
+                  <goals>
+                     <goal>sign</goal>
+                  </goals>
+               </execution>
+            </executions>
+         </plugin>
+      </plugins>
+   </build>
+</project>
