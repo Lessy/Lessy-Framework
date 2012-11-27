@@ -9,12 +9,9 @@
       <relativePath>../Parent/pom.xml</relativePath>
    </parent>
 
-   <!--<groupId>net.lessy</groupId>-->
    <artifactId>lessy-common</artifactId>
-   <!--<version>1.0</version>-->
    <packaging>jar</packaging>
-
-   <!--<name>LessyCommon</name>-->
+   <name>Lessy Common</name>
 
    <dependencies>
       <dependency>

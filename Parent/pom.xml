@@ -4,9 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
    <modelVersion>4.0.0</modelVersion>
+
    <groupId>net.lessy</groupId>
    <artifactId>lessy-parent</artifactId>
    <version>1.0</version>
+
    <name>Lessy Parent</name>
    <packaging>pom</packaging>
    <description>Lessy Parent</description>
@@ -24,8 +26,8 @@
       <!-- use the following if you're not using a snapshot version. -->
       <repository>
          <id>repo</id>
-         <name>Repository Name</name>
-         <url>scp://host/path/to/repo</url>
+         <name>Lessy Framework</name>
+         <url>git://github.com/Lessy/Lessy-Framework.git</url>
       </repository>
       <!-- use the following if you ARE using a snapshot version. -->
       <!--<snapshotRepository>-->
@@ -55,6 +57,10 @@
       <jetty.version>6.1.5</jetty.version>
       <wicket.version>1.5.3</wicket.version>
    </properties>
+
+   <modules>
+      <module>../Common</module>
+   </modules>
 
    <dependencyManagement>
       <dependencies>
