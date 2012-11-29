@@ -5,6 +5,12 @@
 
    <modelVersion>4.0.0</modelVersion>
 
+   <!--<parent>-->
+      <!--<groupId>org.sonatype.oss</groupId>-->
+      <!--<artifactId>oss-parent</artifactId>-->
+      <!--<version>7</version>-->
+   <!--</parent>-->
+
    <groupId>net.lessy</groupId>
    <artifactId>lessy-parent</artifactId>
    <version>1.0</version>
@@ -25,27 +31,39 @@
    <distributionManagement>
       <!-- use the following if you're not using a snapshot version. -->
       <repository>
-         <id>repo</id>
-         <name>Lessy Framework</name>
-         <url>git://github.com/Lessy/Lessy-Framework.git</url>
+         <uniqueVersion>false</uniqueVersion>
+         <id>sonatype-nexus-staging</id>
+         <name>releases</name>
+         <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+         <!--<layout>default</layout>-->
       </repository>
+
       <!-- use the following if you ARE using a snapshot version. -->
-      <!--<snapshotRepository>-->
-         <!--<id>repo</id>-->
-         <!--<name>Repository Name</name>-->
-         <!--<url>scp://host/path/to/repo</url>-->
-      <!--</snapshotRepository>-->
+      <snapshotRepository>
+         <uniqueVersion>false</uniqueVersion>
+         <id>sonatype-nexus-snapshots</id>
+         <name>snapshots</name>
+         <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+         <!--<layout>default</layout>-->
+      </snapshotRepository>
    </distributionManagement>
-   <!--<scm>-->
-      <!--<url>http://cantaa,de</url>-->
-      <!--<connection>http://cantaa.de</connection>-->
-   <!--</scm>-->
+
+   <scm>
+      <connection>scm:git:http://github.com/Lessy/Lessy-Framework.git</connection>
+      <url>https://github.com/Lessy/Lessy-Framework</url>
+   </scm>
 
    <developers>
       <developer>
          <id>lessy</id>
-         <name>Hans Lesmeister</name>
+         <name>Hans</name>
          <email>maven@lessy.net</email>
+         <timezone>+1</timezone>
+         <organization>cantaa GmbH</organization>
+         <organizationUrl>http://cantaa.de</organizationUrl>
+         <roles>
+            <role>developer</role>
+         </roles>
       </developer>
    </developers>
 
@@ -201,10 +219,34 @@
                   <phase>verify</phase>
                   <goals>
                      <goal>jar-no-fork</goal>
-                     <goal>test-jar-no-fork</goal>
+                     <!--<goal>test-jar-no-fork</goal>-->
                   </goals>
                </execution>
             </executions>
+         </plugin>
+
+         <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-javadoc-plugin</artifactId>
+            <version>2.8</version>
+            <configuration>
+               <encoding>${project.build.sourceEncoding}</encoding>
+            </configuration>
+            <executions>
+               <execution>
+                  <id>attach-javadocs</id>
+                  <!--<phase>package</phase>-->
+                  <goals>
+                     <goal>jar</goal>
+                  </goals>
+               </execution>
+            </executions>
+         </plugin>
+
+         <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-release-plugin</artifactId>
+            <version>2.2.1</version>
          </plugin>
 
          <plugin>
