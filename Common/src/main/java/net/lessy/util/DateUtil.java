@@ -16,6 +16,7 @@ public class DateUtil {
     * @param day Day of the month
     * @return Date-Instance
     */
+   @SuppressWarnings("MagicConstant")
    public static Date createDate(int year, int month, int day) {
       Calendar cal = Calendar.getInstance();
       cal.set(year, month - 1, day);
