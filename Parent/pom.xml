@@ -39,6 +39,15 @@
       </developer>
    </developers>
 
+   <!--<distributionManagement>-->
+      <!--<snapshotRepository>-->
+         <!--<id>sonatype-nexus-snapshots</id>-->
+         <!--<name>Sonatype Nexus Snapshots</name>-->
+         <!--<url>${sonatypeOssDistMgmtSnapshotsUrl}</url>-->
+         <!--<uniqueVersion>false</uniqueVersion>-->
+      <!--</snapshotRepository>-->
+   <!--</distributionManagement>-->
+
    <scm>
       <connection>scm:git:http://github.com/Lessy/Lessy-Framework.git</connection>
       <url>https://github.com/Lessy/Lessy-Framework</url>
