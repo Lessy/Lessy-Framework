@@ -18,7 +18,7 @@ public class BaseHibernateDAO extends BaseDAO
    private SessionFactory sessionFactory;
 
    /**
-    * Setter for the HibernateSessionFactory
+    * Setter for the HibernateSessionFactory.
     * @param hibernateSessionFactory Hibernate SessionFactory
     */
    public void setSessionFactory(SessionFactory hibernateSessionFactory)
