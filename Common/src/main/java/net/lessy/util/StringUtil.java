@@ -2,12 +2,14 @@ package net.lessy.util;
 
 /**
  * All kind of String-Utility Methods
+ *
  * @author Hans Lesmeister
  */
 public class StringUtil {
 
    /**
     * Trim with respect of Nullpointer
+    *
     * @param value The value to be trimmed
     * @return Trimmed String or null if the passed String was null
     */
@@ -17,6 +19,7 @@ public class StringUtil {
 
    /**
     * Concats an array of objects
+    *
     * @param objects Objects
     * @return Concatenated
     */
@@ -32,8 +35,9 @@ public class StringUtil {
 
    /**
     * Concats 2 objects with an optional separator. Sep. is only inserted if objects are both not null
-    * @sep Separator, space if null
+    *
     * @return Concatenated string
+    * @sep Separator, space if null
     */
    public static String concatenateNotEmpty(String sep, String s1, String s2) {
       if (sep == null) {
@@ -61,6 +65,7 @@ public class StringUtil {
 
    /**
     * Concats 2 objects separated by a space. Sep. is only inserted if objects are both not null
+    *
     * @return Concatenated string
     */
    public static String concatenateNotEmpty(String s1, String s2) {
@@ -71,8 +76,9 @@ public class StringUtil {
    /**
     * Prueft ob uebergebene Zeichenkette null oder ist bzw nur aus white spaces
     * besteht.
+    *
     * @return true, wenn Zeichenkette aus mindestens einem nocn-white-space Zeichen
-    *               besteht, ansonsten false
+    *         besteht, ansonsten false
     */
    public static boolean isEmpty(String s) {
       return ((s == null) || (s.trim().length() == 0));
@@ -80,6 +86,7 @@ public class StringUtil {
 
    /**
     * Gets the toString-Version of the passed object or null if the object is null
+    *
     * @param obj Object
     * @return String-Representation or null
     */
@@ -89,7 +96,8 @@ public class StringUtil {
 
    /**
     * Gets the toString-Version of the passed object or the passed default if the object is null
-    * @param obj Object
+    *
+    * @param obj      Object
     * @param defValue To be returned if obj is null
     * @return String-Representation or defValue
     */
@@ -124,4 +132,30 @@ public class StringUtil {
               value.substring(0, 1).toUpperCase(),
               value.substring(1).toLowerCase()).toString();
    }
+
+   /**
+    * Outputs the throwable and its stacktrace to the stringbuffer. If stopAtWicketSerlvet is true
+    * then the output will stop when the org.apache.wicket servlet is reached. sun.reflect.
+    * packages are filtered out.
+    * <p>
+    * Copied from Strings.outputThrowable from Wicket
+    *
+    * @param cause
+    */
+   public static String writeStackTrace(Throwable cause) {
+      StringBuilder sb = new StringBuilder();
+      sb.append(cause);
+      sb.append("\n");
+      StackTraceElement[] trace = cause.getStackTrace();
+      for (int i = 0; i < trace.length; i++) {
+         String traceString = trace[i].toString();
+         if (!(traceString.startsWith("sun.reflect.") && i > 1)) {
+            sb.append("     at ");
+            sb.append(traceString);
+            sb.append("\n");
+         }
+      }
+      return sb.toString();
+   }
+
 }

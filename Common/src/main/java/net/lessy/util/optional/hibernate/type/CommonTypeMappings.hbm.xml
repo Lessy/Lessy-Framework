@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate//Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<!--
+   Use this file as a template to include the common hibernate types.
+   Include it in your hibernate configuration file with a mapping directive:
+   <hibernate-configuration>
+       <session-factory>
+          <mapping resource="net/lessy/server/persistence/hibernate/type/CommonTypeMappings.hbm.xml"/>
+       </session-factory>
+   </hibernate-configuration>
+-->
+<hibernate-mapping>
+   <typedef class="net.lessy.util.optional.hibernate.type.MoneyType" name="money"/>
+   <typedef class="net.lessy.util.optional.hibernate.type.Money4Type" name="money4"/>
+   <typedef class="net.lessy.util.optional.hibernate.type.PercentageType" name="percentage"/>
+   <typedef class="net.lessy.util.optional.hibernate.type.QuantityType" name="quantity"/>
+</hibernate-mapping>

@@ -56,6 +56,20 @@ public abstract class Amount<T extends Amount<T>> implements Serializable
    }
 
    /**
+    * @return true if the Amount is negative, i.e. smaller than zero
+    */
+   public boolean isNegative() {
+      return value.signum() < 0;
+   }
+
+   /**
+    * @return true if the Amount is positive, i.e. greater than zero
+    */
+   public boolean isPositive() {
+      return value.signum() > 0;
+   }
+
+   /**
     * Add an amount to this Amount
     * @see java.math.BigDecimal#add(java.math.BigDecimal)
     * @param amount Amount to add. If null, zero is added
@@ -89,7 +103,7 @@ public abstract class Amount<T extends Amount<T>> implements Serializable
       return divideBy(createInstance(new BigDecimal(amount)));
    }
 
-   public T multiplyWith(Amount<T> amount)
+   public T multiplyWith(Amount<?> amount)
    {
       BigDecimal newValue = value;
 

@@ -2,17 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/Reject.java" afterPath="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/Reject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/optional/hibernate/type/AbstractAmountType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/persistence/BaseDAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/persistence/BaseEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/optional/hibernate/BaseHibernateDAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Common/src/main/java/net/lessy/common/services/BaseService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/optional/hibernate/type/CommonTypeMappings.hbm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Common/src/main/java/net/lessy/common/persistence/Identifyable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_jta_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_commons_annotations_3_2_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_3_6_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_0_api_1_0_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/optional/hibernate/type/Money4Type.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/optional/hibernate/type/MoneyType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Common/src/main/java/net/lessy/common/util/ObjectUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/optional/hibernate/type/PercentageType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/optional/hibernate/type/QuantityType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/StreamUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Common/src/test/java/net/lessy/util/StreamUtilTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Common/src/test/java/net/lessy/util/test.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/type/Amount.java" afterPath="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/type/Amount.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Common/LessyCommon.iml" afterPath="$PROJECT_DIR$/Common/LessyCommon.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/StringUtil.java" afterPath="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/StringUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ant.xml" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Common/pom.xml" afterPath="$PROJECT_DIR$/Common/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Parent/pom.xml" afterPath="$PROJECT_DIR$/Parent/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="K:\Data\ExternalProjects\Lessy-Framework\.idea\libraries\Maven__commons_collections_commons_collections_3_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_1.xml" />
     </list>
     <ignored path="Lessy.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="velocity.log" />
     <ignored path="Common/velocity.log" />
-    <file path="/Dummy.txt" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1363094775340" ignored="false" />
-    <file path="/pom.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1363099089733" ignored="false" />
-    <file path="/fragment.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1363095221861" ignored="false" />
+    <file path="/Dummy.txt" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390548417169" ignored="false" />
+    <file path="/pom.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390471522999" ignored="false" />
+    <file path="/fragment.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390498290993" ignored="false" />
     <file path="$PROJECT_DIR$/../BigPicture/ODUS/development/prototypes/Performance/pom.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1359723198920" ignored="false" />
     <file path="$PROJECT_DIR$/../BigPicture/ODUS/development/prototypes/Performance/src/main/java/de/cantaa/odus/client/pages/search/SearchPage.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1359723372239" ignored="false" />
     <file path="/SearchPage.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1359723365482" ignored="false" />
@@ -23,7 +49,7 @@
     <file path="$PROJECT_DIR$/../BigPicture/ODUS/development/prototypes/Performance/src/main/java/de/cantaa/odus/backend/xmlimport/XMLFileHandler.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1359725529362" ignored="false" />
     <file path="$PROJECT_DIR$/../BigPicture/ODUS/development/prototypes/Performance/src/main/java/de/cantaa/odus/common/util/SearchResultSplitter.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1359725546545" ignored="false" />
     <file path="/SearchResultSplitter.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1359725557118" ignored="false" />
-    <file path="/a.dummy" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1363186865500" ignored="false" />
+    <file path="/a.dummy" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390471625934" ignored="false" />
     <file path="$PROJECT_DIR$/../TestProjects/FirstTest/pom.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1363099173826" ignored="false" />
     <file path="$PROJECT_DIR$/../TestProjects/FirstTest/src/main/java/net/lessy/tests/firsttest/FirstTest.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1363095425021" ignored="false" />
     <file path="/FirstTest.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1363095425021" ignored="false" />
@@ -37,6 +63,301 @@
     <file path="J:/NEW_RGW_6.0/SparexUnits/Source/DataModule.dfm" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1363184499204" ignored="false" />
     <file path="J:/NEW_RGW_6.0/SparexApps/RGW/Source/RGW.dproj" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1363186864132" ignored="false" />
     <file path="J:/NEW_RGW_6.0/SparexApps/RGW/Source/RGW.dpr" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1363186864132" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXParent/pom.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472055253" ignored="false" />
+    <file path="/BaseEntity.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411050326" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Projects/Development/LessyFrameWork/DevelopmentNew/lessy-server/src/main/java/net/lessy/server/persistence/BaseEntity.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411050665" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/main/java/de/sparex/biz/persist/server/bo/Customer.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390474559385" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/main/java/de/sparex/biz/persist/server/bo/PartNumber.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411084832" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/main/java/de/sparex/biz/persist/server/bo/OrderDetail.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411109761" ignored="false" />
+    <file path="/OrderDetail.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411095648" ignored="false" />
+    <file path="/workflow-hibernate.oaw" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411203471" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXModel/Model/workflow-hibernate.oaw" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411215771" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/CompanyControlRecord.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractOrder.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266360" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/BinZone.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/PartLabelCodesPerCompany.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractStock.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266360" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/VatCodes.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/service/server/services/MailService.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390413031693" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/OrderDetail.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractPaymentTerms.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390413031693" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/Address.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractPriceRetailCodes.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266360" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/BinLocation.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/Language.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/RelationGroups.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/RelationGroupTypes.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/RelationsPerGroup.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/services/remoting-servlet.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266361" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/services/services.spring.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266361" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/hibernate.mappings.cfg.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractMail.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390413031693" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/hibernate.spring.dao.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266361" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/WebOrderState.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/DailyReport.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/PackCodes.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/Country.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractCompany.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266362" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/Visit.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/Translation.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/Warehouse.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/CustRetailCodes.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/PriceRetailCodes.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/BillsOfMaterial.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/Company.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/PartLabelCode.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/BinStreet.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/CompanyCarriageCharges.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/PackCodesPerPart.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/InvoiceType.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/BackOrder.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/SubOrder.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractCourier.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390413031693" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractPartNumber.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266362" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/Courier.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/Users.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractPart.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266362" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/StockPart.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/OrdersArrivedBy.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractSubOrder.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266362" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/RelationCategories.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/Location.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/CustomerCourier.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/PartGroup.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/LastNum.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/Customer.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/Retails.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/LastLabelNumbers.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/WebOrder.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/Stock.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/PartLabelDefinition.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractBackOrder.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266362" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/WebOrderDetail.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/PartLabelCodesPerPart.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractOrderDetail.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266362" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/PaymentTerms.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractCustomer.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266362" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/WarehouseDetail.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractRetails.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390413031694" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/PartNumber.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
+    <file path="/AbstractOrderDetail.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390413062845" ignored="false" />
+    <file path="/ObjectUtil.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411461818" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/main/java/de/sparex/biz/dto/PartDTO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411685894" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/main/java/de/sparex/biz/dto/StockDTO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411698191" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/main/java/de/sparex/biz/dto/BackOrderDTO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411717438" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/main/java/de/sparex/biz/dto/OrderDetailDTO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411740434" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/main/java/de/sparex/biz/exception/ValidationException.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411770966" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/main/java/de/sparex/biz/dto/SalesDTO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411779321" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/main/java/de/sparex/biz/dto/CustomerDTO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411794007" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/main/java/de/sparex/biz/task/polling/PollingProcessDecorator.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411819635" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/main/java/de/sparex/biz/types/SystemDefaults.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411829145" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/main/java/de/sparex/biz/dto/OrderDTO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411838358" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/main/java/de/sparex/biz/dto/CustomerSegmentDTO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411846187" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/main/java/de/sparex/configuration/Environment.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411866237" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/main/java/de/sparex/biz/dto/VisitDTO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411875319" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/main/java/de/sparex/biz/dto/CustomerResultDTO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411885464" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/main/java/de/sparex/biz/dto/DailyReportVisitsDTO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411896067" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/main/java/de/sparex/biz/persist/server/IDGenerator.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411928383" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/main/java/de/sparex/biz/task/mailorder/MailOrderWarehouseDetail.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411942223" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/main/java/de/sparex/biz/task/mailorder/MailOrderDetail.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411953096" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/main/java/de/sparex/biz/security/UserSession.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411963810" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/main/java/de/sparex/biz/persist/server/bo/Stock.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411977944" ignored="false" />
+    <file path="/Amount.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390467497406" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/main/java/de/sparex/biz/service/server/services/OrderServiceServerImpl.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390412339907" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/main/java/de/sparex/biz/exception/BaseUncheckedException.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390412361352" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXModel/Model/Sparex.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390412992465" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/main/java/de/sparex/biz/persist/server/dao/BackOrderDAOImpl.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390413003313" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/service/server/services/SystemService.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266360" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractWebOrderDetail.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390468864642" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/service/server/services/StockUpdateService.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390468864642" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/BackOrderDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390413031693" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractLastLabelNumbers.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390413031693" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/service/server/services/TemplateService.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390468864642" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/service/server/services/RetailService.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266361" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractBinStreet.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390413031693" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractPartLabelCodesPerCompany.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266361" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractRep.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266362" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractRelationGroups.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390413031693" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractBinZone.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390413031693" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractRelationsPerGroup.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390468864642" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractVisit.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390413031693" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractBillsOfMaterial.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390413031693" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/service/client/services/DailyReportServiceAbstractClientImpl.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390413031693" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractCustomerCourier.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390413031693" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractLastNum.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390413031693" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractBinLocation.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390413031693" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractWarehouseDetail.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390468864642" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractRelationCategories.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390413031693" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractPartLabelCodesPerPart.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266362" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractWebOrder.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266362" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/service/client/services/SystemServiceAbstractClientImpl.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390468864642" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractUsers.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390413031694" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractDailyReport.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390468864642" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractPackCodesPerPart.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266362" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/service/common/services/AuthorizationService.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390413031694" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractStockPart.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266362" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/service/common/services/PollingService.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390413031694" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractCompanyCarriageCharges.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390413031694" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractLogin.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390413031694" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/service/common/services/CustomerService.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390413031694" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/service/common/services/OrderService.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390413031694" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/service/common/services/DailyReportService.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390413031694" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/service/common/services/PartService.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390413031694" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractCompanyControlRecord.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390413031694" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractPartLabelDefinition.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390413031694" ignored="false" />
+    <file path="/StreamUtil.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390468731746" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXWeb/src/main/java/de/sparex/spxweb/wicket/orderentry/OrderEntryPanel.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390467076648" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/main/java/de/sparex/biz/persist/server/dao/WebOrderDAOImpl.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472205134" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/main/java/de/sparex/configuration/impl/GlobalPropertiesImpl.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390466925861" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXWeb/src/main/java/de/sparex/spxweb/wicket/util/converter/SPXTimeConverter.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390467005050" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/main/java/de/sparex/biz/task/polling/processes/imports/parts/ImportPartLabelTranslationPoll.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390466983730" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXWeb/src/main/java/de/sparex/spxweb/wicket/util/converter/SPXPriceConverter.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390467005050" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXWeb/src/main/java/de/sparex/spxweb/wicket/util/converter/SPXDateConverter.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390467005050" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/test/java/de/sparex/util/format/FormatterTest.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390467005050" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXWeb/src/main/java/de/sparex/spxweb/wicket/util/converter/SPXFloatConverter.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390467005050" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/main/java/de/sparex/biz/service/server/services/OrderEntryServiceServerImpl.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390467016966" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/main/java/de/sparex/biz/service/server/services/DailyReportServiceServerImpl.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390467067447" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXWeb/src/main/java/de/sparex/spxweb/wicket/part/partsearch/PartSearchAction.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390467054428" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXWeb/src/test/java/de/sparex/spxweb/wicket/dailyreport/DailyReportDTOTest.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390467054428" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXWeb/src/main/java/de/sparex/spxweb/wicket/orderstate/OrderStatePage.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390467054428" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXWeb/src/main/java/de/sparex/spxweb/wicket/order/OrderEditPage.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390467076648" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXWeb/src/main/java/de/sparex/spxweb/wicket/order/OrderEditDTO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390467054428" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXWeb/src/main/java/de/sparex/spxweb/wicket/dailyreports/DailyReportPage.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390467054428" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/main/java/de/sparex/biz/service/server/services/CustomerServiceServerImpl.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390467054428" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXWeb/src/main/java/de/sparex/spxweb/wicket/base/SPXBasePage.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390467076648" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXWeb/src/main/java/de/sparex/spxweb/wicket/SPXPageFactory.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390467076648" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXWeb/src/main/java/de/sparex/spxweb/wicket/util/models/SPXResourceModel.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390467076648" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXWeb/src/main/java/de/sparex/spxweb/wicket/commonpanels/ListPanel.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390467076648" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXWeb/src/main/java/de/sparex/spxweb/wicket/commonpanels/BackOrdersPanel.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390467076648" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXWeb/src/main/java/de/sparex/spxweb/wicket/navigation/MenuItem.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390467076648" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXWeb/src/main/java/de/sparex/spxweb/wicket/orderentry/EditDelCodePanel.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390467076648" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXWeb/src/main/java/de/sparex/spxweb/wicket/SPXRequestCycle.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390468804506" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXWeb/src/main/java/de/sparex/spxweb/wicket/order/OrderEditHeaderPanel.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390467076648" ignored="false" />
+    <file path="/BaseService.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390467246825" ignored="false" />
+    <file path="/Identifyable.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390467351022" ignored="false" />
+    <file path="/StringUtil.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390467882569" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/test/java/de/sparex/biz/service/server/services/MailOrderServiceServerImplTest.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390468786549" ignored="false" />
+    <file path="/MailOrderServiceServerImplTest.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390468786549" ignored="false" />
+    <file path="/test.txt" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390468681461" ignored="false" />
+    <file path="/StreamUtilTest.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390468762196" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/service/server/services/SystemServiceAbstractServerImpl.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390468864642" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/service/server/services/StockUpdateServiceAbstractServerImpl.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390468864642" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/StockDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390468864642" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXCommon/pom.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390469003936" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXWeb/pom.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390469024818" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/pom.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390469042473" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/main/java/applicationContext.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390469556219" ignored="false" />
+    <file path="/applicationContext.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390469304106" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/main/java/de/sparex/biz/tenant/TenantManager.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390469532230" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Projects/Development/LessyFrameWork/DevelopmentNew/lessy-server/src/main/java/net/lessy/server/persistence/hibernate/type/Money4Type.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390469746281" ignored="false" />
+    <file path="$PROJECT_DIR$/../OnlineFlagshipStore/OFSI_Poland_Dev/ImplementationProject/ejb/src/main/resources/ofsi_staging2.properties" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390493822150" ignored="false" />
+    <file path="/CommonTypeMappings.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390471563394" ignored="false" />
+    <file path="/hibernate.cfg.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390471647000" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/main/resources/config/hibernate/hibernate.cfg.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390471643223" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/main/java/de/sparex/biz/service/server/AbstractSPXServerService.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390471907436" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/main/java/de/sparex/biz/persist/SPXBaseEntity.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390474559385" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/main/java/de/sparex/biz/persist/AbstractSPXBaseHibernateDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472199802" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/CustRetailCodesAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266360" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/CustomerCourierAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266360" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/UsersAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266360" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/AddressAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266361" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/RelationCategoriesAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266361" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/MailAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266361" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/RetailsAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266361" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/RelationsPerGroupAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266361" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/service/server/services/PartService.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266361" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/service/server/services/CustomerService.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266361" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/LastLabelNumbersAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266361" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/WarehouseAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266361" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/PartNumberAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266361" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/CourierAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266361" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/PartLabelCodesPerPartAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266361" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/service/server/services/OrderService.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266361" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/VatCodesAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266361" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/PartAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266361" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/OrderAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266361" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/OrderDetailAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266361" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/BillsOfMaterialAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266361" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/RelationGroupTypesAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266361" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/CompanyControlRecordAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266361" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/DailyReportAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266361" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/CountryAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266361" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/OrdersArrivedByAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266361" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/LanguageAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266361" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/CompanyAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266361" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/VisitAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266361" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/BinLocationAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266361" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/WarehouseDetailAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266361" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/PackCodesAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266361" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/BinZoneAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266362" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/PartLabelCodesPerCompanyAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266362" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/CompanyCarriageChargesAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266362" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/PartGroupAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266362" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/SalesAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266362" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/SubOrderAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266362" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractCustRetailCodes.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266362" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/PriceRetailCodesAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266362" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/LoginAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266362" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/RelationGroupsAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266362" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/StockAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266362" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/StockPartAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266362" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/PartLabelCodeAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266362" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/RepAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266362" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/BackOrderAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266362" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/WebOrderStateAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266362" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/TranslationAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266362" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/PackCodesPerPartAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266362" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/dao/WebOrderAbstractDAO.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266362" ignored="false" />
+    <file path="/SPXBaseEntity.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390474339283" ignored="false" />
+    <file path="/Customer.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390474531881" ignored="false" />
+    <file path="/MailServiceServerImpl.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390478205969" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/main/java/de/sparex/biz/service/server/services/MailServiceServerImpl.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390478261400" ignored="false" />
+    <file path="$PROJECT_DIR$/../OnlineFlagshipStore/OFSI_Poland_Dev/ImplementationProject/web-ofsi/src/main/java/com/cantaa/emb/ofsi/frontend/ofsi/showroom/page/ShowroomPage.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390552908139" ignored="false" />
+    <file path="$PROJECT_DIR$/../OnlineFlagshipStore/OFSI_Poland_Dev/ImplementationProject/web-ofsi/src/main/java/com/cantaa/emb/ofsi/frontend/ofsi/dialogs/driveandbuy/processsupport/SupportOverviewPanel.html" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390552908139" ignored="false" />
+    <file path="db-console:/a8d8ec95/1ef3a32b-af0e-446c-8790-ef5169f2babd/" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390498109098" ignored="false" />
+    <file path="/OFSI auf Local Derby" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390498107795" ignored="false" />
+    <file path="/SupportOverviewPanel.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390498825486" ignored="false" />
+    <file path="$PROJECT_DIR$/../OnlineFlagshipStore/OFSI_Poland_Dev/ImplementationProject/web-ofsi/src/main/java/com/cantaa/emb/ofsi/frontend/ofsi/dialogs/driveandbuy/processsupport/SupportOverviewPanel.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390551060740" ignored="false" />
+    <file path="$PROJECT_DIR$/../OnlineFlagshipStore/OFSI_Poland_Dev/ImplementationProject/web-ofsi/src/main/java/com/cantaa/emb/ofsi/frontend/common/behavior/HideOnEmptyBehavior.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390498686960" ignored="false" />
+    <file path="/HideOnEmptyBehavior.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390498685848" ignored="false" />
+    <file path="$PROJECT_DIR$/../OnlineFlagshipStore/OFSI_Poland_Dev/ImplementationProject/web-ofsi/src/main/java/com/cantaa/emb/ofsi/frontend/ofsi/dialogs/driveandbuy/processorder/OrderProcessOverviewPanel.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390551060740" ignored="false" />
+    <file path="/OrderProcessOverviewPanel.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390499183722" ignored="false" />
+    <file path="$PROJECT_DIR$/../OnlineFlagshipStore/OFSI_Poland_Dev/ImplementationProject/web-ofsi/src/main/java/com/cantaa/emb/ofsi/frontend/ofsi/dialogs/driveandbuy/processorder/OrderProcessOverviewPanel.html" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390552908139" ignored="false" />
+    <file path="/OrderProcessOverviewPanel.html" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390499559327" ignored="false" />
+    <file path="$PROJECT_DIR$/../OnlineFlagshipStore/OFSI_Poland_Dev/ImplementationProject/web-ofsi/src/main/java/com/cantaa/emb/ofsi/frontend/ofsi/dialogs/driveandbuy/processtestdrive/TestDriveOverviewPanel.html" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390551060740" ignored="false" />
+    <file path="$PROJECT_DIR$/../OnlineFlagshipStore/OFSI_Poland_Dev/ImplementationProject/web-ofsi/src/main/java/com/cantaa/emb/ofsi/frontend/common/OFSIBaseApplication_pl.properties.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390551060741" ignored="false" />
+    <file path="$PROJECT_DIR$/../OnlineFlagshipStore/OFSI_Poland_Dev/ImplementationProject/ejb/src/main/resources/templates/PL/order.html" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390551060739" ignored="false" />
+    <file path="$PROJECT_DIR$/../OnlineFlagshipStore/OFSI_Poland_Dev/ImplementationProject/web-ofsi/src/main/java/com/cantaa/emb/ofsi/frontend/ofsi/dialogs/driveandbuy/delivery/DeliveryAtHomePanel.html" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390551060739" ignored="false" />
+    <file path="$PROJECT_DIR$/../OnlineFlagshipStore/OFSI_Poland_Dev/ImplementationProject/web-ofsi/src/main/java/com/cantaa/emb/ofsi/frontend/ofsi/showroom/panel/legal/LegalPanel.html" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390551060740" ignored="false" />
+    <file path="$PROJECT_DIR$/../OnlineFlagshipStore/OFSI_Poland_Dev/ImplementationProject/web-ofsi/src/main/java/com/cantaa/emb/ofsi/frontend/common/OFSIIntermediateApplication_pl.properties.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390551060740" ignored="false" />
+    <file path="$PROJECT_DIR$/../OnlineFlagshipStore/OFSI_Poland_Dev/ImplementationProject/parent/pom.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390551060740" ignored="false" />
+    <file path="$PROJECT_DIR$/../OnlineFlagshipStore/OFSI_Poland_Dev/ImplementationProject/web-ofsi/src/main/java/com/cantaa/emb/ofsi/frontend/admin/marketoptions/MarketOptionsPanel.html" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390551060740" ignored="false" />
+    <file path="$PROJECT_DIR$/../OnlineFlagshipStore/OFSI_Poland_Dev/ImplementationProject/web-ofsi/src/main/java/com/cantaa/emb/ofsi/frontend/odc/AbstractODCPage.html" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390551060740" ignored="false" />
+    <file path="$PROJECT_DIR$/../OnlineFlagshipStore/OFSI_Poland_Dev/ImplementationProject/web-ofsi/src/main/java/com/cantaa/emb/ofsi/frontend/ofsi/showroom/page/ShowroomPage.html" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390551060740" ignored="false" />
+    <file path="$PROJECT_DIR$/../OnlineFlagshipStore/OFSI_Poland_Dev/ImplementationProject/ejb/src/main/resources/templates/PL/password.html" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390551060740" ignored="false" />
+    <file path="$PROJECT_DIR$/../OnlineFlagshipStore/OFSI_Poland_Dev/ImplementationProject/web-ofsi/src/main/java/com/cantaa/emb/ofsi/frontend/ofsi/showroom/page/EmptyShowroomPage.html" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390551060740" ignored="false" />
+    <file path="$PROJECT_DIR$/../OnlineFlagshipStore/OFSI_Poland_Dev/ImplementationProject/ejb/src/main/resources/templates/PL/register.html" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390551060740" ignored="false" />
+    <file path="$PROJECT_DIR$/../OnlineFlagshipStore/OFSI_Poland_Dev/ImplementationProject/web-ofsi/src/main/java/com/cantaa/emb/ofsi/frontend/ofsi/showroom/page/Offer404Page.html" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390551060740" ignored="false" />
+    <file path="$PROJECT_DIR$/../OnlineFlagshipStore/OFSI_Poland_Dev/ImplementationProject/ejb/src/main/resources/templates/PL/sendmail.html" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390551060740" ignored="false" />
+    <file path="$PROJECT_DIR$/../OnlineFlagshipStore/OFSI_Poland_Dev/ImplementationProject/ejb/src/main/resources/templates/PL/order.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390551060740" ignored="false" />
+    <file path="$PROJECT_DIR$/../OnlineFlagshipStore/OFSI_Poland_Dev/ImplementationProject/web-ofsi/src/main/java/com/cantaa/emb/ofsi/frontend/admin/marketoptions/ProcessStepConfigPanel.html" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390551060740" ignored="false" />
+    <file path="$PROJECT_DIR$/../OnlineFlagshipStore/OFSI_Poland_Dev/ImplementationProject/ejb/src/main/resources/templates/PL/dreamcar.html" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390551060740" ignored="false" />
+    <file path="$PROJECT_DIR$/../OnlineFlagshipStore/OFSI_Poland_Dev/ImplementationProject/ejb/src/main/resources/templates/PL/support.html" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390551060740" ignored="false" />
+    <file path="$PROJECT_DIR$/../OnlineFlagshipStore/OFSI_Poland_Dev/ImplementationProject/web-ofsi/src/main/java/com/cantaa/emb/ofsi/frontend/ofsi/dialogs/driveandbuy/processsupport/SupportProcessPanel.html" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390551060740" ignored="false" />
+    <file path="$PROJECT_DIR$/../OnlineFlagshipStore/OFSI_Poland_Dev/ImplementationProject/web-ofsi/src/main/java/com/cantaa/emb/ofsi/frontend/ofsi/dialogs/driveandbuy/processsupport/SupportThankYouPanel.html" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390551060740" ignored="false" />
+    <file path="$PROJECT_DIR$/../OnlineFlagshipStore/OFSI_Poland_Dev/ImplementationProject/web-ofsi/src/main/java/com/cantaa/emb/ofsi/frontend/ofsi/dialogs/driveandbuy/processorder/OrderProcessPanel.html" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390551060740" ignored="false" />
+    <file path="$PROJECT_DIR$/../OnlineFlagshipStore/OFSI_Poland_Dev/ImplementationProject/web-ofsi/src/main/java/com/cantaa/emb/ofsi/frontend/ofsi/dialogs/driveandbuy/processorder/OrderProcessThankYouPanel.html" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390551060740" ignored="false" />
+    <file path="$PROJECT_DIR$/../OnlineFlagshipStore/OFSI_Poland_Dev/ImplementationProject/web-ofsi/src/main/java/com/cantaa/emb/ofsi/frontend/common/OFSIBaseApplication.properties.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390551060740" ignored="false" />
+    <file path="$PROJECT_DIR$/../OnlineFlagshipStore/OFSI_Poland_Dev/ImplementationProject/web-ofsi/src/main/webapp/WEB-INF/web.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390551060740" ignored="false" />
+    <file path="$PROJECT_DIR$/../OnlineFlagshipStore/OFSI_Poland_Dev/ImplementationProject/web-ofsi/src/main/java/com/cantaa/emb/ofsi/frontend/common/OFSIIntermediateApplication.properties.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390551060740" ignored="false" />
+    <file path="$PROJECT_DIR$/../OnlineFlagshipStore/OFSI_Poland_Dev/ImplementationProject/web-ofsi/src/main/java/com/cantaa/emb/ofsi/frontend/ofsi/dialogs/driveandbuy/processtestdrive/TestDriveProcessPanel.html" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390551060740" ignored="false" />
+    <file path="$PROJECT_DIR$/../OnlineFlagshipStore/OFSI_Poland_Dev/ImplementationProject/web-ofsi/src/main/webapp/mobile/app.js" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390551060740" ignored="false" />
+    <file path="$PROJECT_DIR$/../OnlineFlagshipStore/OFSI_Poland_Dev/ImplementationProject/web-ofsi/src/main/java/com/cantaa/emb/ofsi/frontend/ofsi/dialogs/driveandbuy/processtestdrive/TestDriveThankYouPanel.html" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390551060740" ignored="false" />
+    <file path="$PROJECT_DIR$/../OnlineFlagshipStore/OFSI_Poland_Dev/ImplementationProject/ejb/src/main/resources/templates/PL/testdrive.html" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390551060740" ignored="false" />
+    <file path="$PROJECT_DIR$/../OnlineFlagshipStore/OFSI_Poland_Dev/ImplementationProject/web-ofsi/src/main/java/com/cantaa/emb/ofsi/frontend/ofsi/dialogs/driveandbuy/delivery/DeliveryAtDealerPanel.html" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390551060740" ignored="false" />
+    <file path="$PROJECT_DIR$/../OnlineFlagshipStore/OFSI_Poland_Dev/ImplementationProject/ejb/src/main/java/com/cantaa/emb/ofsi/backend/util/Constants.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390551060741" ignored="false" />
+    <file path="$PROJECT_DIR$/../OnlineFlagshipStore/OFSI_Poland_Dev/ImplementationProject/ejb/src/main/java/com/cantaa/emb/ofsi/backend/services/dto/DriveAndBuyBean.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390551060741" ignored="false" />
+    <file path="$PROJECT_DIR$/../OnlineFlagshipStore/OFSI_Poland_Dev/ImplementationProject/web-ofsi/src/main/java/com/cantaa/emb/ofsi/frontend/ofsi/dialogs/QuestionsAndWishesPanel.html" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390551060741" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +383,7 @@
         <option name="ENABLED" value="false" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
         <option name="SUSPEND_POLICY" value="SuspendAll" />
         <option name="SUSPEND" value="true" />
         <option name="COUNT_FILTER_ENABLED" value="false" />
@@ -78,6 +400,7 @@
         <option name="ENABLED" value="false" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
         <option name="SUSPEND_POLICY" value="SuspendAll" />
         <option name="SUSPEND" value="true" />
         <option name="COUNT_FILTER_ENABLED" value="false" />
@@ -99,172 +422,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Reject.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/Reject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/services/BaseService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RejectTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Common/src/test/java/net/lessy/util/RejectTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringUtil.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/StringUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NumberUtilTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Common/src/test/java/net/lessy/util/NumberUtilTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="13" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TechnicalException.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/exception/TechnicalException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="13" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VelocityTemplateManager.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/template/velocity/VelocityTemplateManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="65" selection-start="1175" selection-end="1175" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DateUtil.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/DateUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#390#424#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EmptyIterator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/EmptyIterator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="45" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Parent/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="0" selection-start="3237" selection-end="3237" vertical-scroll-proportion="0.6407982">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="oss-parent-7.pom" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$MAVEN_REPOSITORY$/org/sonatype/oss/oss-parent/7/oss-parent-7.pom">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="0" selection-start="1982" selection-end="2109" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TemplateManager.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/template/TemplateManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="17" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TemplateContext.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/template/TemplateContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="12" selection-start="957" selection-end="957" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Money4.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/type/Money4.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="13" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Money.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/type/Money.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="13" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Percentage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/type/Percentage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="32" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Quantity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/type/Quantity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="6" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BeanUtil.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/BeanUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="13" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Constants.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/Constants.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -277,7 +434,181 @@
       <file leaf-file-name="Amount.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/type/Amount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="13" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0">
+            <state line="105" column="33" selection-start="2408" selection-end="2408" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringUtil.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/StringUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="140" column="0" selection-start="3377" selection-end="3377" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Parent/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="93" column="0" selection-start="3060" selection-end="3254" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StreamUtil.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/StreamUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="57" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StreamUtilTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Common/src/test/java/net/lessy/util/StreamUtilTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="25" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Common/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="0" selection-start="913" selection-end="913" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommonTypeMappings.hbm.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/optional/hibernate/type/CommonTypeMappings.hbm.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="0" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseHibernateDAO.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/optional/hibernate/BaseHibernateDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="47" selection-start="826" selection-end="826" vertical-scroll-proportion="0.9714286">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseDAO.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/persistence/BaseDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="22" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseEntity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/persistence/BaseEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractAmountType.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/optional/hibernate/type/AbstractAmountType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="7" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuantityType.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/optional/hibernate/type/QuantityType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PercentageType.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/optional/hibernate/type/PercentageType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MoneyType.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/optional/hibernate/type/MoneyType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Money4Type.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/optional/hibernate/type/Money4Type.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="7" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Environment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/configuration/Environment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Common/src/test/java/net/lessy/util/test.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="7" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ObjectUtil.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/ObjectUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="13" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ObjectUtil.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/common/util/ObjectUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="0" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -302,22 +633,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Common/src/test/java/net/lessy/util/template/velocity/VelocityTemplateManagerTest.java" />
-        <option value="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/Constants.java" />
-        <option value="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/template/velocity/VelocityTemplateManager.java" />
-        <option value="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/NumberUtil.java" />
-        <option value="J:/SPX2000D2007_trunk/SPX2000/Subsidiaries/Austria/Layouts/Invoice01.txt" />
+        <option value="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/type/Amount.java" />
+        <option value="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/StringUtil.java" />
+        <option value="$PROJECT_DIR$/Common/src/test/java/net/lessy/util/test.txt" />
         <option value="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/StreamUtil.java" />
-        <option value="$PROJECT_DIR$/Common/src/main/java/net/lessy/common/persistence/Identifyable.java" />
-        <option value="$PROJECT_DIR$/Common/src/main/java/net/lessy/common/util/ObjectUtil.java" />
-        <option value="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/configuration/Environment.java" />
-        <option value="$PROJECT_DIR$/Common/createBundle.cmd" />
-        <option value="$PROJECT_DIR$/Common/pom.xml" />
-        <option value="$PROJECT_DIR$/Common/src/test/java/net/lessy/util/RejectTest.java" />
-        <option value="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/DateUtil.java" />
-        <option value="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/Reject.java" />
-        <option value="$MAVEN_REPOSITORY$/org/sonatype/oss/oss-parent/7/oss-parent-7.pom" />
+        <option value="$PROJECT_DIR$/Common/src/test/java/net/lessy/util/StreamUtilTest.java" />
+        <option value="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/optional/hibernate/type/Money4Type.java" />
+        <option value="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/optional/hibernate/type/MoneyType.java" />
+        <option value="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/optional/hibernate/type/PercentageType.java" />
+        <option value="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/optional/hibernate/type/QuantityType.java" />
         <option value="$PROJECT_DIR$/Parent/pom.xml" />
+        <option value="$PROJECT_DIR$/Common/pom.xml" />
+        <option value="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/optional/hibernate/type/AbstractAmountType.java" />
+        <option value="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/optional/hibernate/type/CommonTypeMappings.hbm.xml" />
+        <option value="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/persistence/BaseDAO.java" />
+        <option value="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/persistence/BaseEntity.java" />
+        <option value="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/optional/hibernate/BaseHibernateDAO.java" />
       </list>
     </option>
   </component>
@@ -397,7 +728,7 @@
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -465,16 +796,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Default">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -517,6 +838,10 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -532,7 +857,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="net" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lessy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lessy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -583,6 +938,128 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lessy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="net" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lessy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="persistence" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lessy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="net" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lessy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="optional" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lessy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="net" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lessy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="optional" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -620,92 +1097,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
+              <option name="myItemId" value="common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Default">
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lessy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="net" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lessy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="velocity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lessy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="net" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lessy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -724,11 +1127,12 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="246" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../cantaa/BigPicture/Mercedes-Benz Accessories GmbH/development/prototypes/Performance" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="242" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="799" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="796" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="241" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="236" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -758,39 +1162,19 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="net.lessy.util" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="net.lessy.util.common.util" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="K:\Data\ExternalProjects\Lessy-Framework\Common\src\main\java\net\lessy\util\optional\hibernate\type" />
+      <recent name="K:\Data\ExternalProjects\Lessy-Framework\Common\src\main\java\net\lessy\util\optional\hibernate" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="net.lessy" />
       <recent name="net.lessy.util" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RejectTest">
-    <configuration default="false" name="VelocityTemplateManagerTest.testTemplate" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="net.lessy.util.template.velocity.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="LessyCommon" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="net.lessy.util.template.velocity" />
-      <option name="MAIN_CLASS_NAME" value="net.lessy.util.template.velocity.VelocityTemplateManagerTest" />
-      <option name="METHOD_NAME" value="testTemplate" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.StreamUtilTest.testCreateInputStream">
     <configuration default="false" name="VelocityTemplateManagerTest.testTemplateSpring" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
@@ -893,6 +1277,29 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="StreamUtilTest.testCreateInputStream" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea" />
+      <module name="LessyCommon" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="net.lessy.util" />
+      <option name="MAIN_CLASS_NAME" value="net.lessy.util.StreamUtilTest" />
+      <option name="METHOD_NAME" value="testCreateInputStream" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -908,6 +1315,7 @@
             <option name="profilesMap">
               <map />
             </option>
+            <option name="resolveToWorkspace" value="false" />
             <option name="workingDirPath" value="" />
           </MavenRunnerParameters>
         </option>
@@ -972,16 +1380,17 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.VelocityTemplateManagerTest.testTemplate" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.VelocityTemplateManagerTest.testTemplateSpring" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.VelocityTemplateManagerTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.All in LessyCommon" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.RejectTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.VelocityTemplateManagerTest.testTemplateSpring" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.VelocityTemplateManagerTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.All in LessyCommon" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.RejectTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.StreamUtilTest.testCreateInputStream" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.RejectTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.All in LessyCommon" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.StreamUtilTest.testCreateInputStream" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.RejectTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.All in LessyCommon" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -1068,10 +1477,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1050" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45218295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45196506" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24919957" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1080,13 +1489,14 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24967825" sideWeight="0.4973046" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40409207" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744282" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3264192" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.32640332" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32817504" sideWeight="0.6725572" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32817504" sideWeight="0.67358077" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23052295" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23265742" sideWeight="0.5480349" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50982535" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.671159" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1122,7 +1532,7 @@
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
     <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
     <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
@@ -1132,6 +1542,10 @@
     <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
     <option name="LIMIT_HISTORY" value="true" />
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
     <option name="LAST_COMMIT_MESSAGE" value="small modifications" />
@@ -1145,6 +1559,7 @@
     <option name="ACTIVE_VCS_NAME" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="LessyCommon and Parent on GitHub now" />
@@ -1162,53 +1577,80 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Common/src/test/java/net/lessy/util/RejectTest.java">
+    <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/optional/hibernate/type/PercentageType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/optional/hibernate/type/QuantityType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/services/BaseService.java">
+    <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/type/Money.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
+        <state line="8" column="13" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/Reject.java">
+    <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/optional/hibernate/type/AbstractAmountType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="14" column="7" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/StringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="140" column="0" selection-start="3377" selection-end="3377" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/type/Amount.java">
+    <entry file="file://$PROJECT_DIR$/Parent/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0">
+        <state line="93" column="0" selection-start="3060" selection-end="3254" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/Constants.java">
+    <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/StreamUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="30" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
+        <state line="29" column="57" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/src/test/java/net/lessy/util/StreamUtilTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="25" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="913" selection-end="913" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/BeanUtil.java">
+    <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/optional/hibernate/type/CommonTypeMappings.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/type/Quantity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="6" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
+        <state line="16" column="0" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1220,59 +1662,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/type/Money.java">
+    <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/type/Quantity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
+        <state line="8" column="13" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/type/Money4.java">
+    <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/BeanUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
+        <state line="10" column="13" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/template/TemplateContext.java">
+    <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/persistence/BaseEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="12" selection-start="957" selection-end="957" vertical-scroll-proportion="0.0">
+        <state line="4" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/template/TemplateManager.java">
+    <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/persistence/BaseDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="17" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
+        <state line="6" column="22" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/EmptyIterator.java">
+    <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/optional/hibernate/BaseHibernateDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="45" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/template/velocity/VelocityTemplateContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/sonatype/oss/oss-parent/7/oss-parent-7.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="1982" selection-end="2109" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Parent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="0" selection-start="3237" selection-end="3237" vertical-scroll-proportion="0.6407982">
-          <folding />
+        <state line="29" column="47" selection-start="826" selection-end="826" vertical-scroll-proportion="0.9714286">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
