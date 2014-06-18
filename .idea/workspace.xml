@@ -2,41 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/optional/hibernate/type/AbstractAmountType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/persistence/BaseDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/persistence/BaseEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/optional/hibernate/BaseHibernateDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Common/src/main/java/net/lessy/common/services/BaseService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/optional/hibernate/type/CommonTypeMappings.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Common/src/main/java/net/lessy/common/persistence/Identifyable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_jta_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_commons_annotations_3_2_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_3_6_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_0_api_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/optional/hibernate/type/Money4Type.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/optional/hibernate/type/MoneyType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Common/src/main/java/net/lessy/common/util/ObjectUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/optional/hibernate/type/PercentageType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/optional/hibernate/type/QuantityType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/StreamUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Common/src/test/java/net/lessy/util/StreamUtilTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Common/src/test/java/net/lessy/util/test.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/type/Amount.java" afterPath="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/type/Amount.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Common/LessyCommon.iml" afterPath="$PROJECT_DIR$/Common/LessyCommon.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/StringUtil.java" afterPath="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/StringUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ant.xml" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Common/pom.xml" afterPath="$PROJECT_DIR$/Common/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Parent/pom.xml" afterPath="$PROJECT_DIR$/Parent/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="K:\Data\ExternalProjects\Lessy-Framework\.idea\libraries\Maven__commons_collections_commons_collections_3_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_1.xml" />
     </list>
     <ignored path="Lessy.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="velocity.log" />
     <ignored path="Common/velocity.log" />
-    <file path="/Dummy.txt" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390548417169" ignored="false" />
+    <file path="/Dummy.txt" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1403074145404" ignored="false" />
     <file path="/pom.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390471522999" ignored="false" />
     <file path="/fragment.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390498290993" ignored="false" />
     <file path="$PROJECT_DIR$/../BigPicture/ODUS/development/prototypes/Performance/pom.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1359723198920" ignored="false" />
@@ -76,7 +49,7 @@
     <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractOrder.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266360" ignored="false" />
     <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/BinZone.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
     <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/PartLabelCodesPerCompany.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
-    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractStock.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266360" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractStock.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390553843832" ignored="false" />
     <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/VatCodes.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
     <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/service/server/services/MailService.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390413031693" ignored="false" />
     <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/OrderDetail.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
@@ -88,11 +61,11 @@
     <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/RelationGroups.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
     <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/RelationGroupTypes.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
     <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/RelationsPerGroup.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
-    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/services/remoting-servlet.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266361" ignored="false" />
-    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/services/services.spring.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266361" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/services/remoting-servlet.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390553843832" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/services/services.spring.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390553843832" ignored="false" />
     <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/hibernate.mappings.cfg.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
-    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractMail.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390413031693" ignored="false" />
-    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/hibernate.spring.dao.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266361" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractMail.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390553843832" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/hibernate.spring.dao.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390553843832" ignored="false" />
     <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/WebOrderState.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
     <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/DailyReport.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
     <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/PackCodes.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
@@ -136,7 +109,7 @@
     <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/PartLabelCodesPerPart.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
     <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractOrderDetail.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266362" ignored="false" />
     <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/PaymentTerms.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
-    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractCustomer.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266362" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractCustomer.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390553843832" ignored="false" />
     <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/WarehouseDetail.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
     <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractRetails.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390413031694" ignored="false" />
     <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/resources/config/hibernate/mappings/PartNumber.hbm.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390411257215" ignored="false" />
@@ -175,7 +148,7 @@
     <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/service/server/services/TemplateService.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390468864642" ignored="false" />
     <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/service/server/services/RetailService.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266361" ignored="false" />
     <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractBinStreet.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390413031693" ignored="false" />
-    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractPartLabelCodesPerCompany.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266361" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractPartLabelCodesPerCompany.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390553843832" ignored="false" />
     <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractRep.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266362" ignored="false" />
     <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractRelationGroups.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390413031693" ignored="false" />
     <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractBinZone.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390413031693" ignored="false" />
@@ -188,12 +161,12 @@
     <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractBinLocation.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390413031693" ignored="false" />
     <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractWarehouseDetail.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390468864642" ignored="false" />
     <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractRelationCategories.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390413031693" ignored="false" />
-    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractPartLabelCodesPerPart.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266362" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractPartLabelCodesPerPart.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390553843832" ignored="false" />
     <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractWebOrder.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266362" ignored="false" />
     <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/service/client/services/SystemServiceAbstractClientImpl.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390468864642" ignored="false" />
     <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractUsers.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390413031694" ignored="false" />
     <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractDailyReport.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390468864642" ignored="false" />
-    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractPackCodesPerPart.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266362" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractPackCodesPerPart.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390553843832" ignored="false" />
     <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/service/common/services/AuthorizationService.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390413031694" ignored="false" />
     <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/persist/server/bo/AbstractStockPart.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390472266362" ignored="false" />
     <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/src/generated/java/de/sparex/biz/service/common/services/PollingService.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390413031694" ignored="false" />
@@ -358,6 +331,13 @@
     <file path="$PROJECT_DIR$/../OnlineFlagshipStore/OFSI_Poland_Dev/ImplementationProject/ejb/src/main/java/com/cantaa/emb/ofsi/backend/util/Constants.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390551060741" ignored="false" />
     <file path="$PROJECT_DIR$/../OnlineFlagshipStore/OFSI_Poland_Dev/ImplementationProject/ejb/src/main/java/com/cantaa/emb/ofsi/backend/services/dto/DriveAndBuyBean.java" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390551060741" ignored="false" />
     <file path="$PROJECT_DIR$/../OnlineFlagshipStore/OFSI_Poland_Dev/ImplementationProject/web-ofsi/src/main/java/com/cantaa/emb/ofsi/frontend/ofsi/dialogs/QuestionsAndWishesPanel.html" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390551060741" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/target/test-classes/de/sparex/biz/persist/server/initdatabase/companies.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390553869931" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/target/test-classes/de/sparex/biz/persist/server/initdatabase/logins.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390553869931" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/target/test-classes/de/sparex/biz/persist/server/initdatabase/reps.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390553869931" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPXWEB/SPXServer/target/test-classes/de/sparex/biz/persist/server/initdatabase/carriagePayments.xml" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390553869931" ignored="false" />
+    <file path="/CInvoicing.pas" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390554884766" ignored="false" />
+    <file path="J:/SPX2000D2007_trunk/SPX2000/Source/CInvoicing.pas" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1390554884766" ignored="false" />
+    <file path="/.gitignore" changelist="172119a4-bb9b-47d9-b4a8-9a9cc3d4f4f5" time="1403074896901" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -376,6 +356,7 @@
     <groupTables value="false" />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -412,7 +393,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -422,15 +402,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Constants.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/Constants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="30" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Amount.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/type/Amount.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -440,10 +411,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringUtil.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/StringUtil.java">
+      <file leaf-file-name="ResourceManager.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/resource/ResourceManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="140" column="0" selection-start="3377" selection-end="3377" vertical-scroll-proportion="0.0">
+            <state line="21" column="13" selection-start="782" selection-end="782" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -452,30 +423,17 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Parent/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="0" selection-start="3060" selection-end="3254" vertical-scroll-proportion="0.0">
+            <state line="222" column="19" selection-start="6832" selection-end="6832" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StreamUtil.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/StreamUtil.java">
+      <file leaf-file-name="BaseService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/services/BaseService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="57" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StreamUtilTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Common/src/test/java/net/lessy/util/StreamUtilTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="25" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="10" column="13" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -483,36 +441,34 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Common/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="913" selection-end="913" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommonTypeMappings.hbm.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/optional/hibernate/type/CommonTypeMappings.hbm.xml">
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0">
+            <state line="3" column="6" selection-start="27" selection-end="27" vertical-scroll-proportion="0.05868815">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseHibernateDAO.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/optional/hibernate/BaseHibernateDAO.java">
+      <file leaf-file-name="NumberUtil.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/NumberUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="47" selection-start="826" selection-end="826" vertical-scroll-proportion="0.9714286">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="9" column="13" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseDAO.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/persistence/BaseDAO.java">
+      <file leaf-file-name="Reject.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/Reject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="22" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
+            <state line="7" column="13" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -527,24 +483,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractAmountType.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/optional/hibernate/type/AbstractAmountType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="7" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="QuantityType.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/optional/hibernate/type/QuantityType.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -580,9 +523,7 @@
         <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/configuration/Environment.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -608,7 +549,34 @@
       <file leaf-file-name="ObjectUtil.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/common/util/ObjectUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0">
+            <state line="7" column="13" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/common/services/BaseService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="13" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Identifyable.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/common/persistence/Identifyable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="17" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="createBundle.cmd" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Common/createBundle.cmd">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -633,7 +601,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/type/Amount.java" />
         <option value="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/StringUtil.java" />
         <option value="$PROJECT_DIR$/Common/src/test/java/net/lessy/util/test.txt" />
         <option value="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/StreamUtil.java" />
@@ -649,6 +616,7 @@
         <option value="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/persistence/BaseDAO.java" />
         <option value="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/persistence/BaseEntity.java" />
         <option value="$PROJECT_DIR$/Common/src/main/java/net/lessy/util/optional/hibernate/BaseHibernateDAO.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -727,7 +695,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
+    <option name="width" value="1932" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -796,7 +764,16 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Default">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -936,196 +913,23 @@
               <option name="myItemId" value="lessy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lessy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="net" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lessy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="persistence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lessy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="net" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lessy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="optional" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hibernate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lessy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="net" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lessy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="optional" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hibernate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="type" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lessy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="net" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lessy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Default">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="242" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="242" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="242" />
     <property name="project.structure.proportion" value="0.0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="242" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="recentsLimit" value="5" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="246" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="242" />
@@ -1138,22 +942,23 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/Common/src/test/java/net/lessy/util" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/Common/src/test/java/net/lessy/util" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
     <property name="options.lastSelected" value="MavenSettings" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
@@ -1404,7 +1209,7 @@
       <AnalysisUIOptions />
     </option>
   </component>
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
     <option name="mySSHConnectionTimeout" value="30000" />
@@ -1414,7 +1219,6 @@
     <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
     <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
     <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="DETECT_NESTED_COPIES" value="true" />
     <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
     <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
@@ -1453,7 +1257,15 @@
       <created>1363094777838</created>
       <updated>1363094777839</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Refactorings and several classes added to make it backwards compatible for using apps.">
+      <created>1390553084349</created>
+      <updated>1390553084349</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Refactorings and several classes added to make it backwards compatible for using apps.">
+      <created>1390553256535</created>
+      <updated>1390553256535</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1477,10 +1289,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1050" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1932" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45196506" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4509804" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24919957" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1489,18 +1301,18 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24967825" sideWeight="0.4973046" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40409207" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3264192" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.32640332" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32817504" sideWeight="0.67358077" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23265742" sideWeight="0.5480349" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25187165" sideWeight="0.5480349" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50982535" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.671159" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32848233" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3264192" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.671159" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1548,7 +1360,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="small modifications" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactorings and several classes added to make it backwards compatible for using apps." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1568,6 +1380,7 @@
     <MESSAGE value="change dev.id" />
     <MESSAGE value="1st release on central" />
     <MESSAGE value="small modifications" />
+    <MESSAGE value="Refactorings and several classes added to make it backwards compatible for using apps." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1577,108 +1390,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/optional/hibernate/type/PercentageType.java">
+    <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/type/Amount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/optional/hibernate/type/QuantityType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/type/Money.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/optional/hibernate/type/AbstractAmountType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="7" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/StringUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="0" selection-start="3377" selection-end="3377" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Parent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="0" selection-start="3060" selection-end="3254" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/StreamUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="57" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Common/src/test/java/net/lessy/util/StreamUtilTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="25" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="913" selection-end="913" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/optional/hibernate/type/CommonTypeMappings.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/type/Percentage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="32" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/type/Quantity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/BeanUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/persistence/BaseEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
+        <state line="105" column="33" selection-start="2408" selection-end="2408" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1690,12 +1404,103 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/resource/ResourceManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="13" selection-start="782" selection-end="782" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/common/util/ObjectUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/optional/hibernate/BaseHibernateDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="47" selection-start="826" selection-end="826" vertical-scroll-proportion="0.9714286">
+        <state line="20" column="45" selection-start="569" selection-end="569" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/common/services/BaseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/EmptyIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/common/persistence/Identifyable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/StreamUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/createBundle.cmd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/StringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="140" column="0" selection-start="3377" selection-end="3377" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/DateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="222" column="19" selection-start="6832" selection-end="6832" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/src/main/java/net/lessy/util/services/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="6" selection-start="27" selection-end="27" vertical-scroll-proportion="0.05868815">
+          <folding />
         </state>
       </provider>
     </entry>

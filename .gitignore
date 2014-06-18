@@ -1,4 +1,4 @@
 *.class
 target
-
 *.log
+.idea/workspace.xml
