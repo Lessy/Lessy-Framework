@@ -114,8 +114,6 @@ public class StringUtil {
     */
    public static String toUpperLower(String value) {
 
-      String tRet = null;
-
       if (value == null) {
          return null;
       }
